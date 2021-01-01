@@ -1,0 +1,23 @@
+.ctable {
+	display: table;
+	display: flex;
+	align-items: flex-start;
+}
+
+.ccell {
+	display: table-cell;
+}
+
+.ccell > * {
+	display: block;
+	margin: 18px 25px 18px 0;
+}
+
+img {
+	width: 60%;
+}
+
+iframe {
+	border: none;
+	overflow: hidden;
+}
