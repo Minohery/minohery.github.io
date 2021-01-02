@@ -1,0 +1,61 @@
+.table {
+	display: table;
+	padding: 10px;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+.cell {
+	display: table-cell;
+}
+
+.right div {
+	padding: 5px 25px;
+	background-color: rgb(25, 60, 245);
+	color: yellow;
+}
+
+
+
+img {
+	width: 250px;
+	float: left;
+	padding: 0px 10px;
+}
+
+.right {
+	padding: 0px 15px;
+	width: 150px;
+}
+
+section p {
+	font-size: large;
+}
+
+hr {
+	width: 70%
+}
+
+div:hover {
+	color: white;
+	background-color: rgb(75, 175, 240);
+}
+
+
+footer {
+	border: 2px dashed;
+	padding: 0px 5px;
+}
+
+
+
+
+	
+
+
+	
