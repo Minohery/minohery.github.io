@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Minohery Razafimino">
+<meta name="description" content="Minohery Raza CV">
+<meta name="keywords" content="Minohery Razafimino, Django development">
+<title>Agenda app</title>
+<link href="css/base.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="pics/icon.PNG">
+</head>
+
+<body>
+
+<nav class="main-nav">
+
+<a href="index.html" class="bcell divbase"><div>Home</div></a>
+<a href="certificates.html" class="bcell divbase"><div>My certificates</div></a>
+<a href='resume.html' class="bcell divbase"><div>My resume</div></a>
+
+</nav>
+
+<p> I wrote my own Euler solver, Euler corrected, and RK4 codes on Python</p>
+<p>They can be found here: <a href="https://github.com/Minohery/undergraduate_research" target="_blank">Github repository</a></p>
+<p>The results are below</p>
+<figure>
+    <img src="pics/euler.png">
+    <figcaption>Fig. 1: Visualization of numerical solution using euler solver with a step of 0.2</figcaption>
+</figure>
+<figure>
+    <img src= "pics/rk4.png">
+    <figcaption>Fig. 2: Visualization of numerical solution using RK4 solver with a step of 0.2</figcaption>
+</figure>
+
+
+<p>With the RK4 solver, we can see a higher accuracy with the same step h = 0.2</p>
+<p>Now let us use Euler to simulate the behavior of spring-damping system with an integrating controller. </p>
+<figure>
+    <img src="pics/integrator_graph.png">
+    <figcaption>Fig. 3: Visualization of the behavior of a second order 
+        system using Euler solver with a step of 0.01</figcaption>
+</figure>
+<p>The system above has the following inputs:<br>
+    Damping coefficient: 100 Ns/m<br>
+    Mass: 3.6 kg<br>
+    Spring coefficient: 400 N/m<br>
+    Initial position: 0 m<br>
+    Desired position: 5 m<br>
+    Initial force: 1 N <br>
+    Integrator coefficient: 300<br>
+    Value of step: 0.01<br>
+    Duration of simulation: 15 s<br>
+
+
+</body>
+
+</html>

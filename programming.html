@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Minohery Razafimino">
+<meta name="description" content="Minohery Raza CV">
+<meta name="keywords" content="Minohery Razafimino, Django development">
+<title>Menu choices</title>
+<link href="css/base.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="pics/icon.PNG">
+</head>
+
+<body>
+    <nav class="main-nav">
+
+        <a href="index.html" class="bcell divbase"><div>Home</div></a>
+        <a href="certificates.html" class="bcell divbase"><div>My certificates</div></a>
+        <a href='resume.html' class="bcell divbase"><div>My resume</div></a>
+        
+        </nav>
+    <h3>1. Ordering app</h3>
+    <p>This app allows people to choose from a list of meals.</p>
+    <p>The administrator of the system can easily enable or disable users to choose their meals.</p>
+    <p>Here are some screenshots of the project:</p><br>
+    <figure>
+    <figcaption><h3>The admin interface that show info about users</h3></figcaption>
+    <p> (Here users have not ordered yet: all commands are set to false)</p>
+    <img src="pics/admin.JPG" alt="The admin interface">
+    </figure>
+    <br>
+    <figure>
+    <figcaption><h3>The admin interface that allow to check lists of meals</h3></figcaption>
+    <p>Administrators can modify all lists</p>
+    <img src="pics/admin2.JPG" alt="The admin interface (2)">
+    </figure>
+    <br>
+    <figure>
+    <figcaption><h3>The user interface</h3></figcaption>
+    <p>Users can choose a list</p>
+    <img src="pics/interface.JPG" alt="The user interface">
+    </figure>
+    <h3>2. Marketplace</h3>
+    <p>This is my most recent project. I put all my focus in the back-end. I used the Django framework
+        to develop 3 applications: the first one is a customized login system, and I implemented Gmail API
+        to send the email of confirmation to the user when he registers; the second app is an app that allows the user to set
+        up a selling account using Stripe API; and finally, the third app allows the user to buy an item, using Stripe.</p>
+        <p>Here are some screenshots of my application:</p><br>
+        <div class="tablesp">
+        
+        <article class="cellsp">
+        <h3>Stripe interface when user sets up a selling account</h3><br>
+        <img src="pics/stripe_sell.JPG" alt="Set up selling account">
+        </article>
+        <br><br>
+        <article class="cellsp">
+        <h3>Stripe interface when user wants to buy an item</h3><br>
+        <img src="pics/stripe_buy.JPG" alt="Buy an item">
+        </article>
+
+    <h3>3. Diet planner</h3>
+    <p>This is an app that allows you to make an healthy diet. You will have to give 14 meals first (lunch and dinner),
+        and in the next page, you will give 7 meals (breakfast), and the application will shuffle correctly all the meals
+        so as to separate two same meals with two different ones, and it will give a table as an output.</p>
+        <p>After the first page, you have to input all of the breakfast informations.<br>
+        "Breakfast" and "Lunch and dinner" are independants. So the app will first shuffle the breakfast list,
+        and then shuffle the lunch and dinner one.</p>
+        
+        <h3>First page: lunch and dinner</h3>
+        <img src="pics/LandD.JPG" alt="Input lunch and dinner"><br>
+        <h3>Second page: Breakfast</h3>
+        <img src="pics/breakfast.JPG" alt="Input breakfast"><br>
+        <h3>Second page: Choosing how many tables we want</h3>
+        <img src="pics/tableN.JPG" alt="Input the number of tables you want"><br>
+        <h3>Third page: We get the tables</h3>
+        <img src="pics/tables.JPG" alt="The tables"><br>
+
+</body>
+
+</html>
